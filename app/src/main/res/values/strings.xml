@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TAAnggi</string>
+    <string name="Pengenalan_Suara">Pengenalan Suara</string>
+    <string name="tap_on_mic">Sentuh mic untuk bicara</string>
+</resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ari.taanggi.MainActivity">
+
+    <TextView
+        android:id="@+id/txtTepat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_toEndOf="@+id/textView4"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputSuara"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="30dp"
+        android:layout_toStartOf="@+id/inputSuara"
+        android:text="Ketepatan"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="13dp"
+        android:text="Kelancaran"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="153dp"
+        android:id="@+id/inputSuara"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        tools:text="Text Hasil Inputan disini"/>
+
+    <Button
+        android:text="Tap untuk Buka Mic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tombolBicara"
+        android:background="@android:color/holo_blue_light"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="13dp"
+        android:text="Kehafalan"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtHafal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_alignBaseline="@+id/textView"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_toEndOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/txtLancar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_toEndOf="@+id/textView4"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/hidden"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/textView4"
+        android:text="TextView"
+        android:layout_above="@+id/txtTepat" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_marginStart="16dp"
+        android:text="Button" />
+
+</RelativeLayout>
